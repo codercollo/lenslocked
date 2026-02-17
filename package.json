@@ -1,0 +1,28 @@
+{
+  "name": "lenslocked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codercollo/lenslocked.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/codercollo/lenslocked/issues"
+  },
+  "homepage": "https://github.com/codercollo/lenslocked#readme",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.1"
+  }
+}
