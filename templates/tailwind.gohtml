@@ -9,6 +9,36 @@
     <title>Lenslocked</title>
   </head>
   <body>
+    <header class="bg-linear-to-r from-blue-800 to-indigo-800 text-white">
+      <nav class="px-8 py-6 flex items-center">
+        <div class="text-4xl pr-8 font-serif">LensLocked</div>
+
+        <div class="flex grow justify-center">
+          <a
+            href="/home"
+            class="text-md font-semibold hover:text-blue-100 pr-8"
+          >
+            Home
+          </a>
+          <a
+            href="/contact"
+            class="text-md font-semibold hover:text-blue-100 pr-8"
+          >
+            Contact
+          </a>
+          <a href="/faq" class="text-md font-semibold hover:text-blue-100 pr-8">
+            FAQ
+          </a>
+        </div>
+
+        <div>
+          <a href="#" class="pr-4">Sign in</a>
+          <a href="#" class="px-4 py-2 bg-blue-700 hover:bg-blue-600 rounded">
+            Sign up
+          </a>
+        </div>
+      </nav>
+    </header>
     {{ end }}
 
     {{define "footer"}}
